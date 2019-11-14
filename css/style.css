@@ -3,9 +3,8 @@
 @import url('offer.css');
 @import url('gallery.css');
 @import url('contact.css');
-
-@import 'photoSwipe/photoswipe.css';
-@import 'photoSwipe/default-skin.css';
+@import url('photoswipe.css');
+@import url('default-skin.css');
 
 * {
     margin: 0;
