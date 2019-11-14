@@ -1,0 +1,317 @@
+.container.contact {
+    padding: 11px;
+    background-color: #ffffff;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    transform: translateY(-38px);
+    overflow: visible;
+    z-index: 5;
+    border-radius: 2px;
+    display: flex;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("/img/contactCOM.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* transform: skewY(-1deg); */
+    border-radius: 0px;
+    box-shadow: 0.1px 1px 29px 0px rgba(206, 24, 24, 0.158);
+    /* margin-top: 50px; */
+    padding-top: 65px;
+}
+
+.content.contact {
+    /* background-image: url("./img/contactCOM.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: skewY(-1deg);
+    border-radius: 0px;
+    box-shadow: 0.1px 1px 29px 0px rgba(206, 24, 24, 0.158);
+    margin-top: 50px; */
+}
+
+.contactContent {
+    /* transform: skewY(1deg); */
+}
+
+
+.contact h2 {
+    color: #B35E65;
+}
+
+.contakt {
+    padding: 11px;
+    background-color: #ffffff;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    /* padding-left: 80px;
+    padding-right: 80px; */
+    /* transform: translateY(-38px); */
+    overflow: visible;
+    z-index: 5;
+    border-radius: 2px;
+    display: flex;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* flex-wrap: wrap; */
+    /* border: 0.1px solid rgba(39, 6, 6, 0.445); */
+    /* box-shadow: 5px -3px 7px -4px rgba(168, 172, 184, .8), -5px -3px 7px -4px rgba(168, 172, 184, .8); */
+    width: 100%;
+}
+
+.contakt a {
+    text-decoration: none;
+}
+
+.contakt___infoElement {
+    padding: 13px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    widows: 33.3333%;
+
+}
+
+.contakt___infoElement--double {
+    display: flex;
+    flex-direction: column;
+}
+
+.contakt___infoElement--double--LocFb {
+    padding: 5px;
+}
+
+
+
+.contakt___infoElement--icon {
+    width: 20px;
+    margin-right: 7px;
+}
+
+.contakt___infoElement--text {
+    /* font-family: 'Poppins', sans-serif;
+     */
+    font-weight: 500;
+    /* margin-top: 5px; */
+    padding: 5px;
+}
+
+.formEmail {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 2px;
+    padding: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+
+}
+
+.formEmail__nameAndEmail {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-bottom: 10px;
+}
+
+.formEmail__nameAndEmail .formEmail--element {
+    width: 45%;
+    /* padding: */
+}
+
+.formEmail--element {
+    width: 65%;
+    /* margin: 10px; */
+    display: flex;
+    flex-direction: column;
+
+    /* align-items: center; */
+}
+
+.formEmail--element input {
+    width: 100%;
+    padding: 5px;
+    background: #f5f3f3;
+    border: 0.3px solid rgba(78, 75, 75, 0.322);
+
+}
+
+.formEmail--element textarea {
+    width: 100% !important;
+    resize: none;
+    min-height: 13vh;
+    padding: 5px;
+    background: #f5f3f3;
+    border: 0.3px solid rgba(78, 75, 75, 0.322);
+}
+
+.formEmail button {
+    margin-top: 13px;
+    padding: 13px;
+    padding-left: 27px;
+    padding-right: 27px;
+    background: #B35E65;
+    border: 0;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.formEmail--element label {
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+
+.formEmail p {
+    /* font-size: 14px; */
+    margin-bottom: 10px;
+
+}
+
+
+@media screen and (max-width:1375px) {
+
+
+    .contakt___infoElement {
+        padding: 5px;
+    }
+
+    .contakt___infoElement--text {
+        font-size: 15px;
+    }
+
+    .contakt___infoElement--icon {
+        width: 18px;
+        margin-right: 5px;
+    }
+
+}
+
+@media screen and (max-width:1230px) {
+    .contakt___infoElement {
+        padding: 13px;
+        padding-bottom: 10px;
+        justify-content: center;
+
+    }
+
+    .contakt {
+        flex-direction: column;
+    }
+
+    .contakt___infoElement--text {
+        font-size: 16x;
+        font-weight: 500;
+        padding: 5px;
+    }
+
+    .contakt___infoElement--icon {
+        width: 22px;
+        margin-right: 7px;
+    }
+}
+
+
+
+@media screen and (max-width:767px) {
+    .contakt___infoElement {
+        /* justify-content: flex-start; */
+
+    }
+
+
+    .container.contact {
+        background-position: left;
+        background-position: 15% 50%;
+
+    }
+
+    .contakt___infoElement {
+        margin-bottom: 5px;
+        position: relative;
+        width: 100%;
+    }
+
+    .contakt___infoElement:before {
+        content: "";
+        position: absolute;
+        left: 25%;
+        bottom: 0;
+        height: 2px;
+        width: 50%;
+        border-top: 0.5px solid rgba(179, 94, 101, 0.692);
+    }
+
+    .formEmail {
+        padding: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .formEmail__nameAndEmail {
+        flex-direction: column;
+        width: 100%
+    }
+
+    .formEmail--element {
+        width: 90%;
+    }
+
+    .formEmail__nameAndEmail .formEmail--element {
+        width: 90%;
+    }
+
+    .formEmail--element textarea {
+        min-height: 25vh;
+    }
+
+
+}
+
+
+
+#gmap_canvas {
+    margin-top: 38px;
+    height: 300px;
+    min-height: 300px;
+    width: 100%;
+    border-radius: 2px;
+
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 350px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 719px;
+    width: 100%;
+}
